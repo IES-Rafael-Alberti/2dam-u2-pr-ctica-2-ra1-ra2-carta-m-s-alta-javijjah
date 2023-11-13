@@ -1,12 +1,20 @@
 package com.hachatml.cartamasalta.Caja
 
-class Baraja(
-    listaCartas:ArrayList<Carta>
-)
+class Baraja
 {
     companion object{
-        fun crearBaraja(){}
-        fun barajar(){}
-        fun dameCarta(){}
+        var listaCartas = ArrayList<Carta>()
+
+        fun crearBaraja(){
+            listaCartas = ArrayList<Carta>()
+            //todo
+        }
+        fun barajar(){
+            listaCartas.shuffle()
+        }
+        fun dameCarta():Carta{
+            listaCartas.removeAt(listaCartas.size - 1)
+            return listaCartas[listaCartas.size-1]
+        }
     }
 }

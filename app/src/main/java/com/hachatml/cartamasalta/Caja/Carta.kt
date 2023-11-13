@@ -10,5 +10,4 @@ class Carta(
     var puntosMax: Int,
     var idDrawable:Int
 ) {
-
 }
