@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.hachatml.cartamasalta"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.hachatml.cartamasalta"
