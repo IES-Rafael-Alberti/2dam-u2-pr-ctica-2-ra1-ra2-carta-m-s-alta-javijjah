@@ -11,8 +11,8 @@ class Carta(
     var idDrawable: Int
 ) {
 
-    companion object{
-        fun getDrawableResource(naipe:Naipes, palo: Palos){
+    companion object {
+        fun getDrawableResource(naipe: Naipes, palo: Palos) {
         }//todo
     }
 }

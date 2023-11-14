@@ -59,16 +59,22 @@ fun PintarCarta() {
 @Composable
 fun botonera() {
     Row {
-        Button(onClick = { /*TODO*/ },
+        Button(
+            onClick = { /*TODO*/ },
             Modifier
                 .width(200.dp)
-                .height(80.dp).padding(10.dp)) {
+                .height(80.dp)
+                .padding(10.dp)
+        ) {
             Text(text = "Mostrar carta")
         }
-        Button(onClick = {/*TODO*/ },
+        Button(
+            onClick = {/*TODO*/ },
             Modifier
                 .width(200.dp)
-                .height(80.dp).padding(10.dp)) {
+                .height(80.dp)
+                .padding(10.dp)
+        ) {
             Text(text = "Reset")
         }
     }
